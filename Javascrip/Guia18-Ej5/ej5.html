@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Ejercicio 5</title>
+</head>
+<body style="margin: 20px;">
+
+    <h1>Ejercicio 5</h1>
+
+    <p>Construir un programa que simule un menú de opciones para realizar las cuatro operaciones <br>
+        aritméticas básicas (suma, resta, multiplicación y división) con dos valores numéricos enteros. <br>
+        El usuario, además, debe especificar la operación con el primer carácter de la operación que <br>
+        sesea realizar: ‘S' o ‘s’ para la suma, ‘R’ o ‘r’ para la resta, ‘M’ o ‘m’ para la multiplicación <br>
+        y ‘D’ o ‘d’ para la división.<br> <br>
+
+
+        <input type="text" id="pantalla" readonly>
+        <br>
+    <div style="margin:20px ;">
+        <input type="button" value="1" onclick="agregar('1')">
+        <input type="button" value="2" onclick="agregar('2')">
+        <input type="button" value="3" onclick="agregar('3')">
+        <input type="button" value="+" onclick="agregar('+')">
+        <br>
+        <input type="button" value="4" onclick="agregar('4')">
+        <input type="button" value="5" onclick="agregar('5')">
+        <input type="button" value="6" onclick="agregar('6')">
+        <input type="button" value="-" onclick="agregar('-')">
+        <br>
+        <input type="button" value="7" onclick="agregar('7')">
+        <input type="button" value="8" onclick="agregar('8')">
+        <input type="button" value="9" onclick="agregar('9')">
+        <input type="button" value="*" onclick="agregar('*')">
+        <br>
+        <input type="button" value="0" onclick="agregar('0')">
+        <input type="button" value="." onclick="agregar('.')">
+        <input type="button" value="/" onclick="agregar('/')">
+        <input type="button" value="=" onclick="calcular()">
+        <br>
+        <input type="button" value="Borrar" onclick="borrar()">
+        <br>
+    </div>
+
+    <br>
+
+    <script src="ej5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
